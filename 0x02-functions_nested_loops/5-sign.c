@@ -2,6 +2,7 @@
 /**
  * print_sign - a function for numbers check
  *
+ * @n: This is an argument/variable that is being checked
  * Return: 0 if some condiitons are met, returns 0 when others are met
  */
 
@@ -15,7 +16,7 @@ int print_sign(int n)
 	else if (n == 0)
 	{
 		_putchar('0');
-		 return (0);
+		return (0);
 	}
 	else
 	{
@@ -23,4 +24,3 @@ int print_sign(int n)
 		return (-1);
 	}
 }
-	
