@@ -13,9 +13,10 @@ int main(void)
 	{
 		putchar(n + '0');
 	}
-	for (s = 'A'; s <= 'F'; s++)
+	for (s = 'a'; s <= 'f'; s++)
 	{
 		putchar(s);
 	}
+	putchar('\n');
 	return (0);
 }
