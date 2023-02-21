@@ -2,14 +2,12 @@
 /**
  * _abs - it computes the abslute value of an integer
  *
- * @int: a datatype of some sort
+ * @n: a datatype of some sort
  * Return: the abs of the integer
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	int n;
-
 	if (n >= 0)
 		return (n);
 	else
