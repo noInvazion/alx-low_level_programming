@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - function that prints all numbers from n to 98
  * @n: variable for the starting point
@@ -6,15 +6,31 @@
 
 void print_to_98(int n)
 {
-	for (n = n; n <= 98; n++)
+	if (n >= 98)
 	{
-		_putchar(n / 10 + '0');
-		_putchar(n % 10 + '0');
-		if (n != 98)
+		for (n = n; n >= 98; n--)
 		{
-			_putchar(',');
-			_putchar(' ');
+			if (n != 98)
+			{
+				printf("%d, ", n);
+			}
+			else
+			{
+				printf("%d", n);
 		}
 	}
-	_putchar('\n');
+	else
+	{
+		for (n = n; n <= 98; n++)
+		{
+			if (n != 98)
+			{
+				printf("%d, ", n);
+			}
+			else
+			{
+				printf("%d", n);
+			}
+		}
+	}
 }
