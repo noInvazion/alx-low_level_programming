@@ -10,7 +10,5 @@ int add(int num1, int num2)
 {
 	int sum = num1 + num2;
 
-	_putchar(sum / 10 + '0');
-	_putchar(sum % 10 + '0');
-	return (0);
+	return (sum);
 }
