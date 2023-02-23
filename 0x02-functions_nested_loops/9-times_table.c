@@ -15,24 +15,23 @@ void times_table(void)
 		{
 			int calc = n * i;
 
-			if (calc > 9)
+			if (i == 0)
 			{
-				_putchar(calc / 10 + '0');
-				_putchar(calc % 10 + '0');
+				_putchar(calc + '0');
+			}
+			else if (calc < 10)
+			{
 				_putchar(',');
 				_putchar(' ');
+				_putchar(' ');
+				_putchar(calc + '0');
 			}
 			else
 			{
-				_putchar(calc + '0');
 				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
-			}
-			if (i == 9)
-			{
-				_putchar(',');
-				_putchar(' ');
+				_putchar((calc / 10) + '0');
+				_putchar((calc % 10) + '0');
 			}
 		}
 		
