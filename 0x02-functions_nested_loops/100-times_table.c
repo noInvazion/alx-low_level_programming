@@ -6,15 +6,15 @@
 
 void print_times_table(int n)
 {
-	int multi, i;
+	int a, multi, i;
 
 	if (n <= 15 && n >= 0)
 	{
-		for (n = 0; n <= n; n++)
+		for (a = 0; a <= n; a++)
 		{
 			for (i = 0; i <= n; i++)
 			{
-				multi = n * i;
+				multi = a * i;
 				if (multi == 0)
 				{
 					_putchar(multi + '0');
@@ -40,6 +40,7 @@ void print_times_table(int n)
 					_putchar(',');
 					_putchar(' ');
 					_putchar((multi / 100) + '0');
+					_putchar(((multi % 10) % 10) + '0');
 					_putchar((multi % 10) + '0');
 				}
 			}
