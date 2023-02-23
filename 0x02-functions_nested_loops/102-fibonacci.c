@@ -24,6 +24,7 @@ int main(void)
 		else
 		{
 			printf(",");
+			putchar(' ');
 		}
 	}
 	return (0);
