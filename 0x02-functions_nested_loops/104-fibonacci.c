@@ -17,7 +17,7 @@ int main(void)
 		fib1 = fib2;
 		fib2 = sum;
 
-		if (count == 98)
+		if (count == 97)
 		{
 			printf("\n");
 		}
