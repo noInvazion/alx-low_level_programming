@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - function that prints the multiples of 3 and 5 under 1024
- * @n: variable that holds the big number
  * Return: 0
  */
 
