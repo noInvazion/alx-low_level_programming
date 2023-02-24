@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * convert_day - converts day of month to day of the year, withou accounting
+ * print_remaining_days - converts day of month to day of the year, withou accounting
  * for leap year
  * @month: month in number format
  * @day: day of month
- * @Return: day of year
+ * @year: year variable
  */
 
 void print_remaining_days(int month, int day, int year)
