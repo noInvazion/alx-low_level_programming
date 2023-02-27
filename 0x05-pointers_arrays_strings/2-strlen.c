@@ -16,16 +16,5 @@ int _strlen(char *s)
 			i++;
 		}
 	}
-	if (i < 10)
-	{
-		_putchar(i + '0');
-		_putchar(' ');
-	}
-	else if (i < 100)
-	{
-		_putchar((i / 10) + '0');
-		_putchar((i % 10) + '0');
-		_putchar(' ');
-	}
-	return (0);
+	return (i);
 }
