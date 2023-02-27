@@ -11,5 +11,14 @@ int _strlen(char *s)
 
 	for (i = 0; ;)
 	{
-		if (*s
+		if (s[-1] != '\0')
+		{
+			i += 1;
+		}
+		else
+		{
+			break;
+		}
+	}
+	_putchar(' ');
 }
