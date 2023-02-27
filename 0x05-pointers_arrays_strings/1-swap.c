@@ -2,18 +2,13 @@
 
 /**
  * swap_int - function that swaps two integer values
- * @a: var for a
- * @b: var for b
- * Return: 0
+ * @*a: var for a
+ * @*b: var for b
  */
 
 void swap_int(int *a, int *b)
 {
-	int c;
-
-	c = *a;
+	int c = *a;
 	*a = *b;
 	*b = c;
-
-	return (0);
 }
