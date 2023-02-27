@@ -11,14 +11,7 @@ int _strlen(char *s)
 
 	for (i = 0;;)
 	{
-		if (*s != '\0')
-		{
-			i += 1;
-		}
-		else
-		{
-			break;
-		}
+		i++;
+		return (i);
 	}
-	return (i);
 }
