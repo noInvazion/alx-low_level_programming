@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * _strcat - function to concatenate strings
+ * @dest: pointer variable for char
+ * @src: pointer variable for char
+ * Return: the concatenated string
+ */
 
 char *_strcat(char *dest, char *src)
 {
@@ -17,5 +23,5 @@ char *_strcat(char *dest, char *src)
 
 	*dest = '\0';
 
-	return *str;
+	return (*str);
 }
