@@ -1,9 +1,11 @@
 #include "main.h"
 /**
  * _strncat - function that concatenates
+ * 
  * @dest: pointer variable for dest
  * @src: pointer variable for src
  * @n: variable of int data type
+ *
  * Return: pointer to dest
  */
 
@@ -26,5 +28,5 @@ char *_strncat(char *dest, char *src, int n)
 
 	*dest = '\0';
 
-	return (dest);
+	return (str);
 }
