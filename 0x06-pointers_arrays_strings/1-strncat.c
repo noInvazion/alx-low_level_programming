@@ -11,6 +11,10 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
+	if (*src == '\0')
+	{
+		return (dest);
+	}
 	char *str = dest;
 	int j;
 
