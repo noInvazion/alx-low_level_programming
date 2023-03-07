@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * memset -function that fills the memory by n bytes
+ * _memset -function that fills the memory by n bytes
  * @s: variable s is a pointer variable to char datatype
  * @b: this is a constant byte
- * n: variable n
+ * @n: variable n
  * Return: s
  */
 
@@ -15,5 +15,5 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[i] = b;
 	}
-	return s;
+	return (s);
 }
