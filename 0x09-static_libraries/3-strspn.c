@@ -4,13 +4,14 @@
 #include <strings.h>
 
 /**
- * _isdigit - function
- * @c: variable c
+ * _strspn - function that concatenates
+ * @s: variable s
+ * @accept: variable accept
  * Return: digit
  * noInvazion
  */
 
-int _isdigit(int c)
+unsigned int *_strspn(char *s, char *accept)
 {
         return (0);
 }

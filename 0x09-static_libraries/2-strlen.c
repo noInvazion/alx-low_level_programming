@@ -4,13 +4,13 @@
 #include <strings.h>
 
 /**
- * _isdigit - function
- * @c: variable c
+ * _strlen - function that concatenates
+ * @s: variable s
  * Return: digit
  * noInvazion
  */
 
-int _isdigit(int c)
+int _strlen(char *s)
 {
         return (0);
 }

@@ -4,13 +4,11 @@
 #include <strings.h>
 
 /**
- * _isdigit - function
- * @c: variable c
- * Return: digit
+ * _puts - function
+ * @s: variable s
  * noInvazion
  */
 
-int _isdigit(int c)
+void _puts(char *s)
 {
-        return (0);
 }

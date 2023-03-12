@@ -4,13 +4,13 @@
 #include <strings.h>
 
 /**
- * _isdigit - function
- * @c: variable c
+ * _abs - function
+ * @n: variable n
  * Return: digit
  * noInvazion
  */
 
-int _isdigit(int c)
+int _abs(int n)
 {
         return (0);
 }

@@ -4,13 +4,13 @@
 #include <strings.h>
 
 /**
- * _isdigit - function
+ * _putchar - function that prints
  * @c: variable c
- * Return: digit
+ * Return: 0
  * noInvazion
  */
 
-int _isdigit(int c)
+int _putchar(char c)
 {
         return (0);
 }
