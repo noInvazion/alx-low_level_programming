@@ -7,7 +7,6 @@
  * _strcpy - function that copies
  * @dest: variable dest
  * @src: variable src
- * @n: int n
  * Return: concatenated string
  * noInvazion
  */
