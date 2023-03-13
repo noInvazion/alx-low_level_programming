@@ -5,7 +5,7 @@
 
 /**
  * _atoi - function that concatenates
- * @*s: variable s
+ * @s: variable s
  * Return: digit
  * noInvazion
  */
