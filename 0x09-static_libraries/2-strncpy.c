@@ -1,17 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
-#include <strings.h>
+#include <string.h>
 
-/**
- * _strcpy - function that copies
- * @dest: variable dest
- * @src: variable src
- * Return: concatenated string
- * noInvazion
- */
-
-char *_strcpy(char *dest, char *src)
+char *_strncpy(char *dest, char *src, int n)
 {
-	return (dest);
+	return strncpy(dest, src, n);
 }

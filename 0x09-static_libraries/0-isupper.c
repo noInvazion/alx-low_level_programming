@@ -1,16 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
-#include <strings.h>
-
-/**
- * _isupper - function that ouputs char in uppercase
- * @c: charcater variable
- * Return: 0
- * noInvazion
- */
+#include <string.h>
 
 int _isupper(int c)
 {
-	return (0);
+	return (c >= 'A' && c <= 'Z');
 }

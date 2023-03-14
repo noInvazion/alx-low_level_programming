@@ -1,16 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
-#include <strings.h>
-
-/**
- * _islower - function
- * @c: variable c
- * Return: digit
- * noInvazion
- */
+#include <string.h>
 
 int _islower(int c)
 {
-	return (0);
+	return (c >= 'a' && c<= 'z');
 }
