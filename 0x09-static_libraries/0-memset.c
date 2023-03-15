@@ -1,15 +1,8 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
-#include <strings.h>
-
-/**
- * _memset - function
- * @s: variable s
- * @b: variable s
- * @n: int variable n
- * Return: char
- */
+#include <string.h>
 
 char *_memset(char *s, char b, unsigned int n)
 {

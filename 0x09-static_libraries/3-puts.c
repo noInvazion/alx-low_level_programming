@@ -1,13 +1,8 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
-#include <strings.h>
-
-/**
- * _puts - function
- * @s: variable s
- * noInvazion
- */
+#include <string.h>
 
 void _puts(char *s)
 {

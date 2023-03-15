@@ -1,14 +1,8 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 #include <ctype.h>
-#include <strings.h>
-
-/**
- * _putchar - function that prints
- * @c: variable c
- * Return: 0
- * noInvazion
- */
+#include <string.h>
 
 int _putchar(char c)
 {

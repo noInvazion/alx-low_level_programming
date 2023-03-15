@@ -2,14 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include <strings.h>
-
-/**
- * _abs - function
- * @n: variable n
- * Return: digit
- * noInvazion
- */
+#include <string.h>
 
 int _abs(int n)
 {
