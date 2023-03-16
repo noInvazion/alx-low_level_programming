@@ -1,0 +1,3 @@
+argc - this stands for argument count and it counts the number of elements in the one-dimensional array of strings which is argv...
+
+noInvazion
