@@ -1,44 +1,56 @@
+#include "main.h"
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
 #include <ctype.h>
+#include <string.h>
+/**
+ * check - checks if there are digit in the string
+ * @str: string
+ * Return: 0
+ */
+
+int check(char *str)
+{
+	unsigned int i = 0;
+
+	for (i = 0; i < strlen(str); i++)
+	{
+		if (!isdigit(str[i]))
+			return (0);
+	}
+	return (1);
+}
 
 /**
- * main - adds up positive numbers
- * @argc: holds number of arguments passed
- * @argv: holds the actual elements passed
- * Return: 0
- * noInvazion
+ * main - add positive numbers
+ * @argc: argument count
+ * @argv: argument string
+ * Return: 0 success 1 erroe
  */
 
 int main(int argc, char *argv[])
 {
-	if (argc < 1)
+	int i, sum = 0;
+
+	if (argc < 2)
 	{
-		putchar('0');
-		putchar(' ');
+		printf("0\n");
+		return (0);
 	}
-	
-	int i;
 
 	for (i = 1; i < argc; i++)
 	{
-		if (!isdigit(argv[i]))
+		if (check(argv[i]))
 		{
-		printf("Error\n");
-		return (1);
+			sum += atoi(argv[i]);
+		}
+		else
+		{
+			printf("Error\n");
+			return (1);
 		}
 	}
-
-	int j;
-
-	for (j = 1; j <= argc; i++)
-	{
-		int result;
-
-		result += argv[j];
-	}
-	printf("%d\n", result);
-
+	printf("%d\n", sum);
 	return (0);
+
 }
