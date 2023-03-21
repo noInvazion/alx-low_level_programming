@@ -1,12 +1,4 @@
-#include <stdio.h>
+#ifndef OBJECT_LIKE_MACRO_H
+#define OBJECT_LIKE_MACRO_H
 #define SIZE 1024
-
-/**
- * main - check the code
- * Return: Always 0
- */
-
-int main(void)
-{
-	return (0);
-}
+#endif
