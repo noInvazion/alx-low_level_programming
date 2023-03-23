@@ -1,17 +1,13 @@
-#ifndef DOG_H
-#define DOG_H
-#include <stdio.h>
-void init_dog(struct dog *d, char *name, float age, char *owner);
-void print_dog(struct dog *d);
-dog_t *new_dog(char *name, float age, char *owner);
-void free_dog(dog_t *d);
+#ifndef _HEADER_
+#define _HEADER_
 
 /**
- * struct dog - dog structure
- * @name: name member
- * @age: age member
- * @owner: owner member
- * noInvazion
+ * struct dog - sturcture for dog details
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog's owner
+ *
+ * Description: This is a structure that collects dog details
  */
 
 struct dog
@@ -21,6 +17,13 @@ struct dog
 	char *owner;
 };
 
-typedef dog;
+/**
+ * dog_t - Typedef for dog struct
+ */
+typedef struct dog dog_t;
 
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 #endif
